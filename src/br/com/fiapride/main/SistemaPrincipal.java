@@ -15,6 +15,7 @@ public class SistemaPrincipal {
                 --- BEM-VINDO AO FIAPRIDE ---
                 1 - Entrar
                 2 - Sair
+                3 - Cadastrar
                 """;
         String menu2 = """
                 \n--- MENU DO PASSAGEIRO ---
@@ -61,7 +62,17 @@ public class SistemaPrincipal {
                 }
             }
         }
-
+        if (opcao == 3){
+            System.out.println("Bem-Vindo ao seu Cadastro");
+            int cad_loop = 0;
+            while (cad_loop == 1){
+                System.out.println("Qual o seu nome? ");
+                System.out.println("Qual o seu CPF ");
+                System.out.println("Quer depositar quanto? ");
+                cad_loop += 1;
+            }
+            return;
+        }
         System.out.println("Programa finalizado. Até logo!");
         leitura.close();
     }
