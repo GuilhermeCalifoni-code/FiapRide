@@ -1,4 +1,7 @@
-FIAPRIDE - Sistema de Gestão de Passageiros
+# FiapRide — Java Passenger Management
+
+> Academic console application · Java, object-oriented programming and balance management.
+
 O FIAPRIDE é uma aplicação Java simples desenvolvida para gerenciar o fluxo de pagamento e saldo de passageiros. O sistema permite simular a entrada de um usuário, recarga de saldo, pagamento de passagens e visualização de dados cadastrais via console.
 
 🚀 Funcionalidades
